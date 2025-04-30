@@ -4,6 +4,6 @@ Tansu is an Apache Kafka API compatible broker written in async 🚀 Rust 🦀 w
 
 - Apache Kafka API compatible
 - Available with [PostgreSQL](https://www.postgresql.org), [S3](https://en.wikipedia.org/wiki/Amazon_S3) or memory storage engines
-- Topics [validated](https://github.com/tansu-io/tansu/blob/main/docs/schema-registry.md) by [JSON Schema][json-schema-org], [Apache Avro](https://avro.apache.org)
+- Topics [validated](https://github.com/tansu-io/tansu/blob/main/docs/schema-registry.md) by [JSON Schema](https://json-schema.org), [Apache Avro](https://avro.apache.org)
   or [Protocol buffers](protocol-buffers) can be written as 🆕 [Apache Iceberg tables](https://iceberg.apache.org),
   see [examples using pyiceberg](https://github.com/tansu-io/example-pyiceberg) or [examples using Apache Spark](https://github.com/tansu-io/example-spark)

@@ -10,7 +10,7 @@ Storage:
 
 - [PostgreSQL](https://docs.tansu.io/docs/storage-engine-pg). Multiple brokers can use the same PostgreSQL database as storage. Topic data is partitioned, splitting what is logically one large table into smaller physical pieces. Simple for existing Operational teams to manage.
 - [SQLite](https://docs.tansu.io/docs/storage-engine-sqlite). Super simple to setup. Embedded in the Tansu binary. Single broker only. Widely adopted and very fast. A single database file can easily reproduce an environment on demand.
-- [S3](https://docs.tansu.io/docs/storage-engine-s3)). AWS S3 is designed to exceed 99.999999999% (11 nines) data durability. Multiple brokers can use the same S3 bucket using conditional writes, without an additional coordinator.
+- [S3](https://docs.tansu.io/docs/storage-engine-s3). AWS S3 is designed to exceed 99.999999999% (11 nines) data durability. Multiple brokers can use the same S3 bucket using conditional writes, without an additional coordinator.
 - [memory](https://docs.tansu.io/docs/storage-engine-memory). Designed for ephemeral development or test environments. Quick to setup. Even quicker to tear down.
 
 - **Broker Schema Validation**. [AVRO](https://docs.tansu.io/docs/schema-registry-avro), [Protocol buffer](https://docs.tansu.io/docs/schema-registry-protobuf) and [JSON](https://docs.tansu.io/docs/schema-registry-json) schema backed topics are automatically validated by the broker. Validation is embedded in the broker, with no other moving parts.

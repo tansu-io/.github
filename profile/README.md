@@ -1,4 +1,4 @@
-# Diskless Apache Kafka compatible broker written in async 🚀 Rust 🦀.
+# Diskless Apache Kafka compatible broker
 
 Features:
 
